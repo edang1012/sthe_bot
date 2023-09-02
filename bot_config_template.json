@@ -1,0 +1,9 @@
+{
+    "prefix": ".",
+    "token": "BOT_TOKEN_HERE",
+    "permissions": "BOT_PERMISSIONS_INTERGER_HERE",
+    "application_id": "BOT_APPLICATION_ID_HERE",
+    "sync_commands_globally": false,
+    "owners": ["YOUR_ID_HERE"],
+    "channel_id": "OPTIONAL_CHANNEL_ID_HERE"
+  }
