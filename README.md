@@ -39,7 +39,7 @@ Now, move to the "Bot" page using the menu on the left hand side. Here, you will
 
 Using the left menu, navigate to the "OAuth2" page, then to "URL Generator". In the "Scopes" section, select "Bot". This will open a "Bot Permissions" section. Select the same permissions you did in the previous step. Once this is all done, a URL will be generated at the bottom of the page. Save this URL and use it to invite your new bot to your server. 
 
-Configure Bot Before use:
+Configure Bot Before Use:
 -
 Before the bot can be run, you will need to take the bot_config_template.json file and edit it with your Bot's credentials. Create a copy of the template and name it bot_config.json. Open the file and replace the entries with the information you saved when creating a discord application. The prefix can be set to whatever symbol you would like. This will be used to invoke bot commands. For Token, Permissions, and Application ID input the data you saved earlier from the Discord Developer Portal. These entries must be entered as strings, encapsulated with " ". Under Owners, paste your Discord User ID. You will need to enable developer mode in Discord in order to see this. Right click on your profile to get this User ID. The User ID must be entered as an integer, with no encapsulation. There is an optional Channel ID that is used for the bot to send a status message upon startup. You can select any discord channel the server by pasting its Channel ID here. If don't plan to use this channel feature, leave the entry to the default string value. 
 
@@ -83,7 +83,7 @@ git pull
 git checkout [your_branch]
 git merge master
 ```
-When you are satisfied with the changes in your branch and have pushed everything to the remote repo, submit a pull request to merge your changes to master. Others will need to review the changes then approve them. Once approved, the changes can be merged to master.
+When you are satisfied with the changes in your branch and have pushed everything to the remote repo, submit a pull request to merge your changes to master. Setting up a pull request can be done on this git repo page, where there should be a button above the home page's files to set up a pull request. After configuring your pull request's title and description, make sure to mark which users you want to request to review your changes first, by clicking on each users on the right side. They will be able to view your pull request, commits, and changed files on their end, as well as approve these changes. To do this, under the "Pull requests" tab, click on the desired pull request, and under its "Commits" tab, click on a commit to view all its associated changed files. There should be a green drop-down menu to review and approve of these changes. Once approved, you can go back into your pull request and merge the changes into the main branch.
 
 Useful Links:
 -
