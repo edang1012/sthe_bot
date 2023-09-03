@@ -90,3 +90,4 @@ Useful Links:
 * Discord.py API documentation: https://discordpy.readthedocs.io/en/stable/index.html
 * Old STH Red-bot code: https://github.com/edang1012/STH-red-cogs
 * Good Template for discord bot coding: https://github.com/kkrypt0nn/Python-Discord-Bot-Template/tree/main#readme
+* Git Plugin for Commit Graph Visualizer: https://github.com/NirmalScaria/le-git-graph/blob/main/README.md
