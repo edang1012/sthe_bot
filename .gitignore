@@ -1,0 +1,6 @@
+# folders to ignore
+__pycache__
+.venv
+
+# files to ignore
+bot_config.json
