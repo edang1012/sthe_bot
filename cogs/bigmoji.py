@@ -9,10 +9,11 @@ class Bigmoji(commands.Cog):
         self.bot = bot
 
     @commands.command()
-    async def bigmoji(self, ctx, emoji):
+    async def bigmoji(self, ctx, emoji=None):
         """Post a large .png of an emoji"""
-        convert = False
-        if emoji[0] == '<':
+        if emoji == None:
+            await ctx.send("No emoji to make big...")
+        elif emoji[0] == '<':
             # custom Emoji
             name = emoji.split(':')[1]
             emoji_name = emoji.split(':')[2][:-1]

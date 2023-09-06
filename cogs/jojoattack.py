@@ -7,10 +7,11 @@ class JojoAttack(commands.Cog):
         self.bot = bot
 
     @commands.command()
-    async def jojoattack_test(self, ctx, arg):
+    async def jojoattack_test(self, ctx, arg=None):
         """Test a specific JoJo attack!"""
-        
-        if arg.isnumeric():
+        if arg == None:
+            await ctx.send("No test selected")
+        elif arg.isnumeric():
             msg = int(arg)
             
             if msg < 0 or msg > 12:
